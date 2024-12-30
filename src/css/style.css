@@ -1,0 +1,253 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+        }
+    
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+    
+            50% {
+                background-position: 100% 50%;
+            }
+    
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+main{
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    position:relative;
+    bottom:250px;
+}
+
+.footer{
+background-color: rgba(4, 94, 184, 0.926);
+   border-top: 1px solid  rgb(5, 31, 56);;
+    width: 100%;
+position: absolute;
+bottom: -80px;
+padding: 30px;
+text-align: center;
+}
+
+.footer a{
+
+text-decoration: none;
+color: black;
+}
+
+.container-botoes{
+    display: flex;
+    position: fixed;
+    top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: rgb(224, 69, 48);
+border-radius: 30px;
+}
+
+
+
+.h1-titulo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    color: blue;
+}
+.span-cor{
+    color: red;
+    font-size: 50px;
+}
+
+.container-divs{
+    position: relative;
+bottom: 113px;
+    margin:300px;
+    display: flex;
+    border: 10px solid rgba(166, 21, 21, 0.584);
+    border-radius: 30px;
+    
+}
+.container-divs img{
+width: 70%;
+  
+    margin: 45px;
+    padding: 5px;
+}
+
+.container-divs img:hover{
+    background-color: rgb(232, 0, 0);
+    padding: 10px;
+}
+
+.botao-reiniciar-jogo{
+display: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+        border-radius: 30px;
+}
+
+.botao-novo-jogo{
+background-color: rgb(4, 94, 184);
+text-align: center;
+border-radius: 30px;
+}
+
+
+.pontos{
+    margin-right: 44px;
+    text-align: center;
+}
+
+.suas-tentativas{
+    margin-right: 44px;
+
+}
+
+.container-tuturial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+position: relative;
+    display: inline-block;
+    top: 70px;
+   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(4, 94, 184, 0.926);
+    width: 10%;
+    border-radius: 10px;
+}
+
+
+.video-miranha{
+   border: solid 10px rgb(4, 94, 184);
+    position: absolute;
+    left: 25%;
+    top: 250px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+    width: 50%;
+}
+
+.texto-acertou{
+    font-size: 30px;
+    position: relative;
+color:white ;
+bottom: -140px;
+   background-color:rgb(4, 94, 184);
+   display: flex;
+justify-content: center;
+    text-align: center;
+    align-items: center;
+   margin-left: 40%;
+   margin-right: 40%;
+   border-radius: 50px;
+   padding: 14px;
+}
+
+.texto-ganhou-jogo{
+font-size: 30px;
+    position: relative;
+    color: white;
+    bottom: -300px;
+    background-color: rgb(4, 94, 184);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 50px;
+    padding: 14px;
+    
+}
+
+
+.texto-errou{
+    font-size: 30px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    bottom: -140px;
+    background-color: rgb(184, 4, 4);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 50px;
+    padding: 14px;
+}
+
+.texto-perdeu{
+    font-size: 30px;
+        position: relative;
+        color: rgb(255, 255, 255);
+        bottom: -140px;
+        background-color: rgb(184, 4, 4);
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin-left: 40%;
+        margin-right: 40%;
+        border-radius: 50px;
+        padding: 14px;
+}
+
+.texto-reiniciar-jogo{
+display: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(184, 4, 4);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 350px;
+    border-radius: 50px;
+    padding: 14px;
+
+}
+
+#botaoReiniciarJogo{
+    display: none;
+}
+
+#miranhaGanhouJogo{
+    display: none;
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    top: -66px; ;
+
+}
+
+.siga-rede-sociais{
+    display: none;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
