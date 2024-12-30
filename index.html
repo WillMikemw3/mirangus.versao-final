@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omirangus</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body id="bodyAlteracao"  style="background-image: url(./src/img/miranhazoado.jpg);background-size:900px;">
+<h2 id="titulo-dinamico-inicial" style="font-size: 40px;" class="h1-titulo">SEJA BEM VINDO AO JOGO DO <span class="span-cor">MIRANHA IMPOSTOR</span></h2>
+<div id="tuturialInicial" class="container-tuturial">
+<h3 class="tuturial">DICAS:</h3>
+<p class="tuturial">Você Deve Encontrar o Miranha Impostor</p>
+<p class="tuturial">Cada Acerto o Impostor Muda de Lugar</p>
+<p class="tuturial">Cada Acerto Você Ganha +1 Tentativa e Pontos</p>
+<p class="tuturial">Cada Erro Você Perde uma Tentativa</p>
+<p class="tuturial">Se o Ponto chegar a 10 Você Ganha</p>
+<p class="tuturial">Se a Tentativa chegar a 0 é Game Over</p>
+</div>
+    <main><br><br><br>
+
+        <h1 id="titulo-dinamico" class="h1-titulo"></h1>
+<p id="acertouOuErrou" class="texto-acertou"></p>
+<button id="botaoReiniciarJogo" class="texto-reiniciar-jogo" onclick="reiniciarJogo()">Reiniciar Jogo</button>
+
+
+<p id="sigaRedeSociais" class="siga-rede-sociais">Gostou? Então me Siga nas minhas Redes Sociais:
+    <a href="https://www.linkedin.com/in/michael-william-83b056321/" target="_blank">
+    <img src="./src/img/linkedinpng.png" alt="linkedin" width="3%"></a>
+    
+    <a href="https://github.com/WillMikemw3/willmikemw3" target="_blank"><img src="./src/img/github.png" alt="github" width="3%"></p></a>
+
+        <div id="imagensDosMiranhasDivPai" class="container-divs">
+
+        </div>
+       
+
+    
+
+
+        <div id="divDoPontoETentativas" class="container-botoes">
+
+
+<div class="pontos">
+    <p id="pontos">Seus Pontos</p>
+</div>
+
+<div id="suasTentativas" class="suas-tentativas">
+    <p id="tentativas" class="suas-tentativas">Suas Tentativas</p>
+</div>
+
+            
+
+
+            
+
+            <button id="botaoComecarJogo" class="botao-novo-jogo" onclick="novaPartida()">Começar Jogo</button>
+            
+        </div>
+    </main>
+
+    <audio id="AudioAtocarNoInicio"  src="./src/audio/miranha-audio.MP3"></audio>
+    <audio id="MaryJaneCadeVoce" src="./src/audio/cadevocemaryjane.MP3"></audio>
+
+    <video id="miranhaGanhouJogo" src="./src/video/miranhaganhouJogo.mp3"></video>
+    <audio id="gameOverMiranha" src="./src/audio/gameovermiranha.MP3"></audio>
+    <script src="./app.js"></script>
+
+    <footer class="footer">Jogo Do Miranha Feito Por Mim <a href="https://www.linkedin.com/in/michael-william-83b056321/" target="_blank">&copy;WillMike</a></footer>
+</body>
+
+</html>
